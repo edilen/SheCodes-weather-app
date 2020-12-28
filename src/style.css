@@ -22,14 +22,14 @@ li {
   color: #343b40;
 }
 .container {
-  width: 100%;
+  width: 98%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 .weather-app {
-  max-width: 450px;
+  max-width: 500px;
   margin: 30px auto;
 }
 .card {
