@@ -22,8 +22,6 @@ li {
   color: #343b40;
 }
 .container {
-  display: block;
-  margin: 0;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -31,7 +29,6 @@ li {
   margin-left: auto;
 }
 .weather-app {
-  border: 3px solid #343b40;
   max-width: 600px;
   margin: 30px auto;
 }
