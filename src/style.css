@@ -1,9 +1,9 @@
 body {
-  font-family: monospace;
-  font-weight: 250;
-  line-height: 8px;
   display: block;
   margin: 0;
+  font-family: monospace;
+  font-weight: 250;
+  line-height: 24px;
   font-size: 16px;
   background: url(https://wallpaperaccess.com/full/404561.jpg);
 }
@@ -22,6 +22,8 @@ li {
   color: #343b40;
 }
 .container {
+  display: block;
+  margin: 0;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -30,15 +32,11 @@ li {
 }
 .weather-app {
   border: 3px solid #343b40;
-  display: block;
-  margin: 0;
-  padding: 15px;
-  border-radius: 10px;
   max-width: 600px;
+  margin: 30px auto;
 }
 .card {
-  display: block;
-  margin: 0;
+  line-height: 23px;
   opacity: 56%;
   background: url(https://i.pinimg.com/originals/a9/8f/44/a98f44d4c289b1f0928150721413396b.gif);
 }
@@ -47,12 +45,6 @@ li {
   font-family: "Berkshire Swash", cursive;
   font-weight: 800;
   font-size: 65px;
-}
-
-.icon {
-  display: block;
-  margin: 0 auto;
-  max-width: 900px;
 }
 
 .temperature {
@@ -78,7 +70,5 @@ li {
 .coder-info {
   text-align: center;
   font-size: 8px;
-  display: block;
-  margin: 0%;
   color: #adc2fd;
 }
