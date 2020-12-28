@@ -2,8 +2,8 @@ body {
   font-family: monospace;
   font-weight: 250;
   line-height: 8px;
-  margin: 0;
   display: block;
+  margin: 0;
   font-size: 16px;
   background: url(https://wallpaperaccess.com/full/404561.jpg);
 }
@@ -15,7 +15,7 @@ ul {
 
 li {
   font-size: 16px;
-  font-weight: 100;
+  font-weight: 200;
   height: 19px;
   line-height: 1;
   list-style: none;
@@ -30,47 +30,49 @@ li {
 }
 .weather-app {
   border: 3px solid #343b40;
+  display: block;
+  margin: 0;
   padding: 15px;
-  margin: 20px;
   border-radius: 10px;
   max-width: 600px;
 }
 .card {
   display: block;
   margin: 0;
-  padding: 0;
+  opacity: 56%;
   background: url(https://i.pinimg.com/originals/a9/8f/44/a98f44d4c289b1f0928150721413396b.gif);
 }
 .location-name {
-  color: #343b40;
-  font-family: "Abril Fatface", cursive;
+  color: #ffffff;
+  font-family: "Berkshire Swash", cursive;
   font-weight: 800;
-  font-size: 55px;
+  font-size: 65px;
 }
 
 .icon {
-  width: 75px;
-  left: -55px;
+  display: block;
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 .temperature {
   color: #343b40;
-  font-size: 33px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 600;
   line-height: 1;
 }
 
 .units {
   color: #343b40;
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
-  top: -20px;
-  left: -10px;
+  top: -12px;
+  left: -13px;
 }
 
 .search-form {
-  margin-bottom: 40px;
-  padding: 0px;
+  margin: 15px;
+  padding: 25px 0px;
 }
 
 .coder-info {
@@ -78,5 +80,5 @@ li {
   font-size: 8px;
   display: block;
   margin: 0%;
-  color: rgb(173, 194, 253);
+  color: #adc2fd;
 }
